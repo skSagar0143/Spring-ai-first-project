@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: spring-ai-01
+
+    ai:
+        openai:
+            api-key: <API_KEY>
+
+            chat:
+                options:
+                    model: gpt-4o
+                    max-tokens: 100
